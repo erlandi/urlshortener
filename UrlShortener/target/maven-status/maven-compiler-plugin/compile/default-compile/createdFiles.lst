@@ -1,0 +1,6 @@
+com\cabonline\urlshortener\App.class
+com\cabonline\urlshortener\repository\UrlRepository.class
+com\cabonline\urlshortener\service\UrlFormatter.class
+com\cabonline\urlshortener\resource\UrlShortenerResource.class
+com\cabonline\urlshortener\service\UrlValidator.class
+com\cabonline\urlshortener\service\UrlShortenerService.class
