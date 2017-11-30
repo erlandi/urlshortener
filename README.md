@@ -2,6 +2,7 @@
 REST api for making short urls and using them
 ```
 IDE: Eclipse
+Requirements: Spring
 
 To build:
 Run As -> Maven Install
