@@ -23,8 +23,7 @@ public class UrlShortenerService {
 		String formatedLongUrl = urlFormatter.format(longUrl);
 
 		if (!urlValidator.validate(formatedLongUrl)) {
-			throw new IllegalArgumentException(String.format("Bad url %s",
-					formatedLongUrl));
+			return "bad long url";
 		}
 
 		String shortUrl = generateShortenedUrl(formatedLongUrl);
